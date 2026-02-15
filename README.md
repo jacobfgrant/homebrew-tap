@@ -8,7 +8,7 @@ Homebrew formulae for tools by [@jacobfgrant](https://github.com/jacobfgrant).
 brew tap jacobfgrant/tap
 ```
 
-## Available Formulae
+## Formulae
 
 ### unity-rearm
 
@@ -19,3 +19,15 @@ brew install unity-rearm
 ```
 
 See the [unity-rearm repo](https://github.com/jacobfgrant/unity-rearm) for documentation.
+
+## Casks
+
+### emu-sync
+
+Sync ROMs and BIOS files from an S3-compatible bucket.
+
+```bash
+brew install --cask emu-sync
+```
+
+See the [emu-sync repo](https://github.com/jacobfgrant/emu-sync) for documentation.
