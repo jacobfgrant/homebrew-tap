@@ -14,18 +14,18 @@ cask "emu-sync" do
   on_macos do
     on_intel do
       url "https://github.com/jacobfgrant/emu-sync/releases/download/v#{version}/emu-sync_darwin_amd64.tar.gz"
-      sha256 "898ab97da25821e84197969866612fe5f8835e0fb5c076e65f182dc3a6390ab3"
+      sha256 "f78f39752cde28c8719765c84c8cc6c22650cf354dc7a5ba6e81412623126226"
     end
     on_arm do
       url "https://github.com/jacobfgrant/emu-sync/releases/download/v#{version}/emu-sync_darwin_arm64.tar.gz"
-      sha256 "c7c0c6e752856b21aac7be8a2ed266b841c4ad7e4a8ef5ff6b4b339f6f9700eb"
+      sha256 "573a212a015ea4a4b0dfef9fecd1722b4a633612ee0d012174dcacae6dbb63c2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jacobfgrant/emu-sync/releases/download/v#{version}/emu-sync_linux_amd64.tar.gz"
-      sha256 "b10de4da4815e6e8258c4b616c632756cdd8a822a2273e55bdddea942f7b1473"
+      sha256 "70dba843d669065e5ff1d2dfa2461ab50671027a290cbb3802f467e5fec61cce"
     end
   end
 
