@@ -3,7 +3,7 @@ cask "emu-sync" do
   name "emu-sync"
   desc "Sync ROMs and BIOS files from an S3-compatible bucket"
   homepage "https://github.com/jacobfgrant/emu-sync"
-  version "0.5.4"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,18 +14,18 @@ cask "emu-sync" do
   on_macos do
     on_intel do
       url "https://github.com/jacobfgrant/emu-sync/releases/download/v#{version}/emu-sync_darwin_amd64.tar.gz"
-      sha256 "e03f2e55d2d0595e55fe59ec747b828d7f1beda8a8858f9ac886911da299ac92"
+      sha256 "9b7e678edaa09ec8ff8adb69c7cf6860ad71cfe8e5f8605bca708a3d0c724b58"
     end
     on_arm do
       url "https://github.com/jacobfgrant/emu-sync/releases/download/v#{version}/emu-sync_darwin_arm64.tar.gz"
-      sha256 "af9226893447598aa5d6d45351276f4f6ca017e728946bb1f4fdd8b17e70a906"
+      sha256 "a940b5a2f525aaa349eddb1f14d208eab6b2ec7b010a1797dd0b3a75bf4febd7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jacobfgrant/emu-sync/releases/download/v#{version}/emu-sync_linux_amd64.tar.gz"
-      sha256 "7e1ebbc22a95e49e7ff0879764d9bb406b9cd1d6742df5aa95f0f2b749bd5720"
+      sha256 "c6585d7d8e46dfbf403a82373b66d489feb52908181acb69e58026f2c216a29f"
     end
   end
 
